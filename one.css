@@ -1,0 +1,129 @@
+
+body{
+ 
+    background-color: rgba(17, 16, 19, 0.911);
+    padding-top: 60px;
+}
+
+
+
+
+
+.container-1, .container-2, .container-3, .container-4, .container-5{
+    color: rgb(233, 84, 84);
+    border: 1px solid rgb(219, 77, 21);
+    border-radius: 10px;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+
+
+    -webkit-box-shadow: 2px -1px 66px 0px rgb(155, 37, 37);
+    -moz-box-shadow: 2px -1px 66px 0px rgb(177, 35, 35);
+    box-shadow: 2px -1px 66px 0px rgb(190, 29, 29);
+    
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color,
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+
+    display: flex;
+    border: 1px solid rgb(219, 88, 28);
+    border-radius: 10px;
+     padding: 10px; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(197, 81, 27);
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(212, 91, 91, 0.7);
+
+}
+
+
+.flex-box-rps img:hover {
+
+    box-shadow: 0px 10px 50px rgba(216, 22, 22, 0.7);
+}
+
+
+#background {
+    border-radius: 10px;
+    
+}
+
+/* task4 */
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('https://images.unsplash.com/photo-1601370690183-1c7796ecec61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjF8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    color: rgb(226, 226, 226);
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align:center;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img {
+    width: 20%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 0px solid black;
+    margin-right: 30px;
+   
+}
+
+.flex-blackjack-row-2 div {
+    border: 0px solid black;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid rgb(214, 75, 75);
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
